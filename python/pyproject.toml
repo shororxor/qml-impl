@@ -1,0 +1,16 @@
+[project]
+name = "qml-impl-python"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pennylane>=0.45.1",
+    "pennylane-lightning>=0.45.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.5",
+]
